@@ -6,5 +6,5 @@ Program to send a versionmessage to the Namecoin client
 2. Start namecoind:
 ./namecoind -listen -printtoconsole -debug -connect=1.2.3.4
 
-3. Start the program
+3. Start the program:
 ./message 127.0.0.1
