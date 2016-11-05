@@ -1,10 +1,13 @@
 # versionmessage
 Program to send a versionmessage to the Namecoin client
 
-1. Download the files and type make into the command line.
+1. Install libboost
+   sudo apt-get install libboost-all-dev
 
-2. Start namecoind:
+2. Download the files and type make into the command line.
+
+3. Start namecoind:
 ./namecoind -listen -printtoconsole -debug -connect=1.2.3.4
 
-3. Start the program:
+4. Start the program:
 ./message 127.0.0.1
